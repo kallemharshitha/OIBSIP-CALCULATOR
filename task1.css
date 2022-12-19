@@ -1,0 +1,65 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 25px;
+    width: 305px;
+    height: 50px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #dfd5d5;
+    border-radius: 6px;
+}
+
+button {
+    font-size: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRwEktyne1JokdXnvrqV7VGt7pWMV2XMMLo0RRQ4aRTfwyEsG6crotkRIUgEjg&usqp=CAI);
+    outline: none;
+    border: none;
+    background: #e6eff1ec;
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: .2em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #0f0f0f;
+    color: #fcf9f9;
+    background: rgb(117, 117, 117);
+}
+
+button.clear {
+    background: rgb(216, 10, 10);
+}
+
+button.answer {
+    background: rgb(4, 87, 4);
+}
+
+.calculator {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 12px 12px 20px #111111, -12px -12px 20px #030303;
+    background: rgb(117, 117, 117);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #b96a6a;
+}
